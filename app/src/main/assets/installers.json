@@ -25,4 +25,10 @@
     "subtitle": "Installer for background installations",
     "description": "Requires Aurora Services to be installed as system app."
   }
+  {
+    "id": "4",
+    "title": "No automatic install",
+    "subtitle": "Do not install the app after download",
+    "description": "Usefull if you only want to grab he apk."
+  } 
 ]

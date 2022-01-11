@@ -32,7 +32,7 @@ android {
         targetSdkVersion 30
 
         versionCode 38
-        versionName "4.0.7"
+        versionName "4.0.7.0-JW"
 
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled true

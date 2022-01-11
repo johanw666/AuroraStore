@@ -77,6 +77,12 @@ open class AppInstaller private constructor(var context: Context) {
                 choiceAndInstaller[prefValue] = installer
                 installer
             }
+            // JW: added
+            4 -> {
+                val installer = NoInstaller(context)
+                choiceAndInstaller[prefValue] = installer
+                installer
+            }
             else -> if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 val installer = SessionInstaller(context)
                 choiceAndInstaller[prefValue] = installer

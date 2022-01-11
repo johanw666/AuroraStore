@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_install_mode_no">"No installer"</string>
+    <string name="installer_status_ready">"Ready"</string>
+</resources>
