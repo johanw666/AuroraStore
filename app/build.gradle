@@ -31,7 +31,7 @@ android {
         targetSdkVersion 32
 
         versionCode 41
-        versionName "4.1.1"
+        versionName "4.1.1.0-JW"
 
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled true

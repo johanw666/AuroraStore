@@ -29,6 +29,7 @@ import com.aurora.extensions.showDialog
 import com.aurora.store.BuildConfig
 import com.aurora.store.R
 import com.aurora.store.data.installer.AMInstaller
+import com.aurora.store.data.installer.NoInstaller // JW: added
 import com.aurora.store.data.installer.ServiceInstaller
 import com.aurora.store.data.model.Installer
 import com.aurora.store.databinding.FragmentOnboardingInstallerBinding
@@ -141,6 +142,11 @@ class InstallerFragment : BaseFragment() {
                         R.string.installer_am_unavailable
                     )
                 }
+            }
+            // JW: added
+            5 -> {
+                this.installerId = installerId
+                save(PREFERENCE_INSTALLER_ID, installerId)
             }
             else -> {
                 this.installerId = installerId

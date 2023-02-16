@@ -113,6 +113,7 @@
         <item>@string/pref_install_mode_root</item>
         <item>@string/pref_install_mode_services</item>
         <item>@string/pref_install_mode_am</item>
+        <item>@string/pref_install_mode_no</item> <!-- JW: added -->
     </string-array>
 
     <string-array name="pref_installation_method_values">
@@ -121,6 +122,7 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
+        <item>5</item> <!-- JW: added -->
     </string-array>
 
     <string-array name="link_urls">
